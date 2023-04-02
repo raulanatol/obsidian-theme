@@ -942,3 +942,8 @@ div._index_ {
 .nav-folder.mod-root > .nav-folder-title .nav-folder-title-content {
   display:none;
 }
+
+/* Spaces bewteen the folders name and the emoji */
+.obsidian-icon-folder-icond {
+  margin-right: 0.5em;
+}
