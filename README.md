@@ -5,6 +5,6 @@
 Clone this repository into your Obsidian vault's `.obsidian/themes` folder.
 
 ```shell
-git clone git@github.com:raulanatol/obsidian-theme.git Wololoo
+git clone git@github.com:raulanatol/wololoo-obsidian-theme.git Wololoo
 
 ```
