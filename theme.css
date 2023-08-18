@@ -948,9 +948,6 @@ div._index_ {
 
 /* Spaces bewteen the folders name and the emoji */
 .obsidian-icon-folder-icon {
-<<<<<<< HEAD
-  margin-right: 0.2em;
-=======
     margin-right: 0.2em;
 }
 
@@ -960,5 +957,4 @@ div._index_ {
 
 table > th, td {
     border: 1px solid var(--table-border-color);
->>>>>>> bbe4562 (Update table styles)
 }
