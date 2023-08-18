@@ -54,6 +54,9 @@ body {
     --tag-background-color-d: #1d694b;
     --tag-font-color-d: #ffffff;
 
+    --divider-border-color: #383D47;
+    --table-border-color: #383D47;
+
     /* Font families */
     --font-text-theme: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Inter, Ubuntu, sans-serif;
@@ -249,7 +252,7 @@ body {
 /* H2 styling */
 h2,
 .HyperMD-header.HyperMD-header-2.cm-line {
-    border-bottom: 2px solid var(--background-modifier-border);
+    border-bottom: 2px solid var(--divider-border-color);
     width: 100%;
     padding-bottom: 2px;
 }
@@ -940,10 +943,22 @@ div._index_ {
 
 /* Hides the name of the root folder */
 .nav-folder.mod-root > .nav-folder-title .nav-folder-title-content {
-  display:none;
+    display: none;
 }
 
 /* Spaces bewteen the folders name and the emoji */
 .obsidian-icon-folder-icon {
+<<<<<<< HEAD
   margin-right: 0.2em;
+=======
+    margin-right: 0.2em;
+}
+
+/************************************/
+/* Tables                           */
+/************************************/
+
+table > th, td {
+    border: 1px solid var(--table-border-color);
+>>>>>>> bbe4562 (Update table styles)
 }
