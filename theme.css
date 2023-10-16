@@ -958,3 +958,34 @@ div._index_ {
 table > th, td {
     border: 1px solid var(--table-border-color);
 }
+
+/************************************/
+/* Status labels                    */
+/************************************/
+span.status-label {
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.status-label[data-value="QA"] {
+    background-color: var(--pink);
+    color: #222;
+}
+
+.status-label[data-value="In progress"] {
+    background-color: var(--green);
+    color: #222;
+}
+
+.status-label[data-value="Blocked"] {
+    background-color: var(--orange);
+    color: #222;
+}
+
+/************************************/
+/* Person                           */
+/************************************/
+
+span[data-link-type="people"] > span::before {
+    content: '👤 ';
+}
