@@ -951,6 +951,18 @@ div._index_ {
     margin-right: 0.2em;
 }
 
+.cm-sizer {
+    min-width: 90%;
+}
+
+.cm-content {
+    min-width: 100%;
+}
+
+.cm-line {
+    min-width: 100%;
+}
+
 /************************************/
 /* Tables                           */
 /************************************/
